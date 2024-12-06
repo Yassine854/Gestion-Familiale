@@ -9,4 +9,16 @@ Le projet **Gestion Familiale** permet aux parents de gérer les informations de
 Pour cloner ce projet sur votre machine locale, exécutez la commande suivante dans votre terminal :
 
 ```bash
-git clone https://github.com/username/gestion-familiale.git
+git clone https://github.com/Yassine854/Gestion-Familiale.git
+
+## Installer les dépendances Laravel
+```bash
+composer install
+
+
+
+## Configuration de l'environnement
+#Copier le fichier .env.example en .env :
+
+```bash
+cp .env.example .env
