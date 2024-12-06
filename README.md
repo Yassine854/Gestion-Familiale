@@ -4,30 +4,29 @@
 
 Le projet **Gestion Familiale** permet aux parents de gérer les informations de leurs enfants, notamment les profils personnels et les comptes sur les réseaux sociaux. Chaque parent peut enregistrer et modifier les données de ses enfants, tout en ayant un contrôle sur les informations et les activités liées à leur compte.
 
-## Cloner le dépôt
+1. **le dépôt:**
 ```bash
 git clone https://github.com/Yassine854/Gestion-Familiale.git
  ```
-1. **Navigate to the project directory:**
+2. **Accéder au répertoire du projet:**
     ```bash
     cd your-project-name
     ```
 
-3. **Install dependencies:**
-    For Laravel:
+3. **Installer les dépendances Pour Laravel:**
     ```bash
     composer install
     ```
 
-4. **Set up environment variables:**
-    Copy `.env.example` to `.env` and configure your database and environment settings.
+4. **Configurer les variables d'environnement:**
+    Copy `.env.example` to `.env` et configurez votre base de données et vos paramètres d'environnement.
 
-5. **Run migrations to set up the database:**
+5. **Exécuter des migrations pour configurer la base de données:**
     ```bash
     php artisan migrate
     ```
 
-6. **Run the development server:**
+6. **Exécuter le serveur de développement:**
     ```bash
     php artisan serve
     ```
