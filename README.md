@@ -10,7 +10,7 @@ Le projet **Gestion Familiale** permet aux parents de gérer les informations de
     ```
 2. **Accéder au répertoire du projet:**
     ```bash
-    cd your-project-name
+    cd Personne
     ```
 
 3. **Installer les dépendances Pour Laravel:**
