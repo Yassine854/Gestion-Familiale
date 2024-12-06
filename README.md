@@ -19,7 +19,10 @@ Le projet **Gestion Familiale** permet aux parents de gérer les informations de
     ```
 
 4. **Configurer les variables d'environnement:**
-    Copy `.env.example` to `.env` et configurez votre base de données et vos paramètres d'environnement.
+   ```bash
+    cp .env.example` .env
+    ```
+    
 
 5. **Exécuter des migrations pour configurer la base de données:**
     ```bash
