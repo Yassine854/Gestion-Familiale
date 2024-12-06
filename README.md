@@ -26,7 +26,12 @@ Le projet **Gestion Familiale** permet aux parents de gérer les informations de
     php artisan migrate
     ```
 
-6. **Exécuter le serveur de développement:**
+6. **Générer la clé d'application:**
+    ```bash
+    php artisan key:generate
+    ```
+
+7. **Exécuter le serveur de développement:**
     ```bash
     php artisan serve
     ```
